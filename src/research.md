@@ -2,44 +2,48 @@
 layout: page.njk
 title: Research
 eyebrow: Research Profile
-description: Research interests, current research direction, selected projects, and future research goals.
+description: Research interests, current research direction, selected projects,
+  and future research goals.
 permalink: /research/
 ---
-
 ## Research Overview
 
-My research focuses on cybersecurity and secure computing across AI-enabled systems, networks, IoT, cloud computing, healthcare technologies, and future communication systems.
+My research focuses on 5G/6G, Cybersecurity, AI Agent Security, Computer Networks, IoT, Healthcare Technologies, etc.
 
 ## Research Interests
 
 <div class="tag-grid">
+  <span>5G/6G</span>
   <span>Cybersecurity</span>
-  <span>AI Security</span>
   <span>AI Agent Security</span>
-  <span>Machine Learning Security</span>
-  <span>Secure Embedded Systems</span>
-  <span>Network Security</span>
-  <span>Software-Defined Networking</span>
-  <span>IoT Security</span>
-  <span>Cloud Computing</span>
-  <span>Cloud Security</span>
+  <span>Computer Networks</span>
+  <span>IoT</span>
   <span>Healthcare Technologies</span>
-  <span>Green Computing</span>
-  <span>Digital Forensics</span>
-  <span>Quantum Computing</span>
+  <span>Software-Defined Networking</span>
+   <span>Green Computing</span>
+   <span>Quantum Computing</span>
 </div>
 
-## Current Research: Security of AI Agents and Tool-Using Systems
+## Current Research: 5G/6G Communication
+
+Currently, I am working on achieving some improvement in balancing the trade-off between the latency and energy consumption. 
+
+### Focus Areas
+
+* Trade-off
+* Applying RF
+
+## Current Research: Security of AI Agents
 
 I am interested in the security risks of AI agents that interact with external tools, files, APIs, and user environments. A key direction is detecting and preventing indirect prompt injection attacks, where malicious instructions are hidden inside external content and later influence an AI agent’s behavior.
 
 ### Focus Areas
 
-- Indirect prompt injection in tool-using AI agents
-- Runtime enforcement and guardrail design
-- Separation of detection and action-level prevention
-- Secure agent architecture and trustworthy AI workflows
-- Evaluation of attack success rate, detection accuracy, and blocking behavior
+* Indirect prompt injection in tool-using AI agents
+* Runtime enforcement and guardrail design
+* Separation of detection and action-level prevention
+* Secure agent architecture and trustworthy AI workflows
+* Evaluation of attack success rate, detection accuracy, and blocking behavior
 
 ## Cybersecurity and Network Security
 
@@ -47,10 +51,10 @@ My broader cybersecurity interests include network security, software-defined ne
 
 ### Focus Areas
 
-- Software-defined networking security
-- Control-plane threats and countermeasures
-- Network attack analysis and defense mechanisms
-- Secure and privacy-aware communication systems
+* Software-defined networking security
+* Control-plane threats and countermeasures
+* Network attack analysis and defense mechanisms
+* Secure and privacy-aware communication systems
 
 ## IoT, Cloud, and Healthcare Security
 
@@ -58,10 +62,10 @@ My previous and continuing research connects IoT, cloud computing, edge intellig
 
 ### Focus Areas
 
-- Cloud-IoT healthcare systems
-- NB-IoT and edge intelligence
-- Secure healthcare monitoring
-- Energy-aware and scalable computing systems
+* Cloud-IoT healthcare systems
+* NB-IoT and edge intelligence
+* Secure healthcare monitoring
+* Energy-aware and scalable computing systems
 
 ## Selected Research Projects
 
