@@ -12,7 +12,7 @@ permalink: /contact/
 ## Academic and Professional Profiles
 
 <div class="contact-links">
-  <a href="#" target="_blank">[Google Scholar](https://scholar.google.com/citations?user=xeF6VrYAAAAJ&hl=en)</a>
+  <a href="https://scholar.google.com/citations?user=xeF6VrYAAAAJ&hl=en" target="_blank">Google Scholar</a>
   <a href="#" target="_blank">[LinkedIn](https://www.linkedin.com/in/zaheed-ahmed-bhuiyan-7a6449114/)</a>
   <a href="https://github.com/zaheedahmedziko-lab" target="_blank">GitHub</a>
   <a href="#" target="_blank">[ORCID](https://orcid.org/0009-0008-6937-0559)</a>
