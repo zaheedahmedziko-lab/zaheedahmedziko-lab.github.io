@@ -1,0 +1,88 @@
+---
+layout: base.njk
+title: Home
+description: Academic portfolio of Zaheed Ahmed Bhuiyan.
+---
+
+<section class="home-hero">
+  <div class="hero-bg"></div>
+
+  <div class="home-hero-inner reveal">
+    <div class="profile-wrap">
+      <img src="/assets/img/profile.jpg" alt="Zaheed Ahmed Bhuiyan" class="profile-photo" />
+    </div>
+
+    <div class="hero-copy">
+      <p class="eyebrow">Academic Portfolio</p>
+      <h1>Zaheed Ahmed Bhuiyan</h1>
+      <h2>Ph.D. Student in Information Technology | Graduate Teaching Assistant</h2>
+
+      <p class="hero-summary">
+        Cybersecurity · AI Security · IoT & Cloud Security · Software-Defined Networking · Secure Intelligent Systems
+      </p>
+
+      <div class="hero-actions">
+        <a href="/research/" class="btn primary">Explore Research</a>
+        <a href="/publications/" class="btn secondary">View Publications</a>
+        <a href="/blog/" class="btn ghost">Towson Blog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="feature-grid">
+
+    <article class="feature-card reveal">
+      <span class="feature-number">01</span>
+      <h2>Research Focus</h2>
+      <p>
+        My research interests include cybersecurity, AI security, AI agent security,
+        IoT and cloud security, software-defined networking, and secure intelligent systems.
+      </p>
+      <a href="/research/">Read more</a>
+    </article>
+
+    <article class="feature-card reveal">
+      <span class="feature-number">02</span>
+      <h2>Academic Profile</h2>
+      <p>
+        I am pursuing a Ph.D. in Information Technology at Towson University and serving
+        as a Graduate Teaching Assistant in the Department of Computer and Information Sciences.
+      </p>
+      <a href="/about/">About me</a>
+    </article>
+
+    <article class="feature-card reveal">
+      <span class="feature-number">03</span>
+      <h2>Publications</h2>
+      <p>
+        My publication record includes research in IEEE Access, CAAI Transactions on Intelligence Technology,
+        EURASIP Journal, and international conference proceedings.
+      </p>
+      <a href="/publications/">View publications</a>
+    </article>
+
+  </div>
+</section>
+
+<section class="content-section split-section reveal">
+  <div>
+    <p class="eyebrow">Latest Updates</p>
+    <h2>Blog and Towson Experience</h2>
+    <p>
+      I use the blog section to share selected updates about my academic journey,
+      research activities, teaching experience, campus life, and reflections from Towson University.
+    </p>
+  </div>
+
+  <div class="latest-posts">
+    {% for post in collections.blog | slice(0, 3) %}
+      <article class="mini-post">
+        <p>{{ post.date | readableDate }}</p>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <span>{{ post.data.summary }}</span>
+      </article>
+    {% endfor %}
+  </div>
+</section>

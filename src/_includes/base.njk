@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ title }} | Zaheed Ahmed Bhuiyan</title>
+
+  <meta name="description" content="{{ description or 'Academic website of Zaheed Ahmed Bhuiyan, Ph.D. student in Information Technology at Towson University.' }}" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="/" class="logo" aria-label="Zaheed Ahmed Bhuiyan homepage">
+        <span>ZAB</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <div class="nav-links">
+        <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+        <a href="/research/" class="{% if page.url == '/research/' %}active{% endif %}">Research</a>
+        <a href="/publications/" class="{% if page.url == '/publications/' %}active{% endif %}">Publications</a>
+        <a href="/experience/" class="{% if page.url == '/experience/' %}active{% endif %}">Experience</a>
+        <a href="/blog/" class="{% if page.url == '/blog/' %}active{% endif %}">Blog</a>
+        <a href="/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+        <a href="/assets/img/Zaheed_Ahmed_Bhuiyan_CV.pdf" target="_blank" class="cv-link">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p>© 2026 Zaheed Ahmed Bhuiyan. All rights reserved.</p>
+      <p class="footer-subtext">Cybersecurity · AI Security · IoT & Cloud Security · Software-Defined Networking</p>
+    </div>
+  </footer>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

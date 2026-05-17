@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+<section class="page-hero">
+  <div class="page-hero-inner reveal">
+    <p class="eyebrow">{{ eyebrow }}</p>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+  </div>
+</section>
+
+<section class="content-section reveal">
+  <article class="markdown-card">
+    {{ content | safe }}
+  </article>
+</section>

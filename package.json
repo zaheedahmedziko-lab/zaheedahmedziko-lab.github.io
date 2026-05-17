@@ -1,0 +1,22 @@
+{
+  "name": "zaheed-academic-website",
+  "version": "1.0.0",
+  "description": "Academic personal website of Zaheed Ahmed Bhuiyan",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "academic website",
+    "portfolio",
+    "cybersecurity",
+    "AI security",
+    "research"
+  ],
+  "author": "Zaheed Ahmed Bhuiyan",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.1"
+  }
+}
